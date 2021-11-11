@@ -17,7 +17,11 @@ describe ('Calculator', () => {
   });
   test('Should calculate user age in Mars years', () => {
     const user = new Calculator ('Kate' , 30);
-    expect(user.MarsAge).toBeCloseTo((30/1.88), 1); 
+    expect(user.marsAge).toBeCloseTo((30/1.88), 1); 
+  });
+  test('Should calculate user age in Jupiter years', () => {
+    const user = new Calculator ('Kate' , 30);
+    expect(user.jupiterAge).toBeCloseTo((30/11.86), 1)
   });
 
 });
