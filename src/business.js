@@ -23,6 +23,8 @@ export default class Calculator{
   mercuryLife() {
     if ((this.expectancy / 0.24 - this.mercuryAge) > 0 ) {
       return this.mercuryLeft = (this.expectancy / 0.24 - this.mercuryAge);
+    } else {
+      return this.mercuryBeyond = (this.mercuryAge - (this.expectancy / 0.24 ));
     }
   }
 
