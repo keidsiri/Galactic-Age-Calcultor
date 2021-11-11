@@ -7,8 +7,13 @@ export default class Calculator{
     this.venusAge = (this.age / 0.62);
     this.marsAge = (this.age / 1.88);
     this.jupiterAge = (this.age / 11.88);
-    this.earthLeft = (this.expectancy - this.age)
+    this.earthLeft = (this.expectancy - this.age);
+    this.earthBeyond = 0;
   }
+
+  earthLife () {
+  }
+
 }
 
 

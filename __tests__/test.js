@@ -26,7 +26,11 @@ describe ('Calculator', () => {
   test('Should calculate how many years of user life has left based on their life expectancy on Earth', () => {
     const user = new Calculator ('Kate' , 30 , 80);
     expect(user.earthLeft).toEqual(50);
-  })
+  });
+  test('Should return years of user life that has already surpassed the average life expectancy', () => {
+    const user = new Calculator ('Kate', 50, 40);
+    expect(user.earthBeyond).toEqual(10);
+  });
 });
 
 
