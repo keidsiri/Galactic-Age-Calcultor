@@ -31,6 +31,12 @@ describe ('Calculator', () => {
     const user = new Calculator ('Kate', 50, 40);
     expect(user.earthBeyond).toEqual(10);
   });
+  test('Should return life on earth left if expectancy years is more then age otherwise return lifeBeyond', () => {
+    const user1 = new Calculator ('Kate', 50, 80);
+    const user2 = new Calculator ('Kate', 65, 60);
+    expect(user1.earthLife()).toEqual(30);
+    expect(user2.earthLife()).toEqual(5);
+  });
 });
 
 
