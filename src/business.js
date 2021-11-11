@@ -12,11 +12,11 @@ export default class Calculator{
   }
 
   earthLife () {
-    // if ((this.expectancy - this.age) > 0 ) {
-    //   return this.earthLeft = (this.expectancy - this.age);
-    // } else {
-    //   return this.earthBeyond = (this.age - this.expectancy);
-    // }
+    if ((this.expectancy - this.age) > 0 ) {
+      return this.earthLeft = (this.expectancy - this.age);
+    } else {
+      return this.earthBeyond = (this.age - this.expectancy);
+    }
   }
 
 }
