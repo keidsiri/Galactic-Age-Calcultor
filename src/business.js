@@ -4,7 +4,7 @@ export default class Calculator{
     this.age = age;
     this.mercuryAge = (this.age / 0.24);
     this.venusAge = (this.age / 0.62);
-    this.MarsAge = 0;
+    this.MarsAge = (this.age / 1.88);
   }
 }
 
