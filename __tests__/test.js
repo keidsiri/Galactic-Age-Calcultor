@@ -23,7 +23,10 @@ describe ('Calculator', () => {
     const user = new Calculator ('Kate' , 30);
     expect(user.jupiterAge).toBeCloseTo((30/11.86), 1)
   });
-
+  test('Should calculate how many years of user life has left based on their life expectancy on Earth', () => {
+    const user = new Calculator ('Kate' , 30 , 80);
+    expect(user.earthLeft).toEqual(50);
+  })
 });
 
 
