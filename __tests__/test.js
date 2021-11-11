@@ -38,7 +38,7 @@ describe ('Calculator', () => {
     expect(user2.earthLife()).toEqual(5);
   });
   test('Should calculate remaining years of user on Mercury', () => {
-    const user = Calculator ('Kate', 30 , 80);
+    const user = new Calculator ('Kate', 30 , 80);
     expect(user.mercuryLife()).toBeCloseTo((50/0.24), 1)
   })
 });
