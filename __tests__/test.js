@@ -15,6 +15,10 @@ describe ('Calculator', () => {
     const user = new Calculator ('Kate' , 30);
     expect(user.venusAge).toBeCloseTo(48.38, 1);  //Use toBeCloseTo to compare floating point numbers for approximate equality.
   });
+  test('Should calculate user age in Mars years', () => {
+    const user = new Calculator ('Kate' , 30);
+    expect(user.MarsAge).toBeCloseTo((30/1.88), 1); 
+  });
 
 });
 
