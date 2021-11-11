@@ -8,7 +8,7 @@ export default class Calculator{
     this.marsAge = (this.age / 1.88);
     this.jupiterAge = (this.age / 11.88);
     this.earthLeft = (this.expectancy - this.age);
-    this.earthBeyond = 0;
+    this.earthBeyond = (this.age - this.expectancy);
   }
 
   earthLife () {
