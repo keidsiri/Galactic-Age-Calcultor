@@ -13,7 +13,7 @@ describe ('Calculator', () => {
   });
   test('Should calculate user age in Venus years',() => {
     const user = new Calculator ('Kate' , 30);
-    expect(user.venusAge).toEqual(48.38)
+    expect(user.venusAge).toBeCloseTo(48.38, 1);  //Use toBeCloseTo to compare floating point numbers for approximate equality.
   });
 
 });
