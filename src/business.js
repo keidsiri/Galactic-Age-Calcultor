@@ -9,7 +9,6 @@ export default class Calculator{
     this.jupiterAge = (this.age / 11.88);
     this.earthLeft = 0;
     this.earthBeyond = 0;
-    this.mercuryLeft = 0;
     
   }
 
@@ -37,6 +36,7 @@ export default class Calculator{
       return this.earthBeyond = (this.age - this.expectancy);
     }
   }
+
   mercuryLife() {
     if ((this.expectancy / 0.24 - this.mercuryAge) > 0 ) {
       return this.mercuryLeft = (this.expectancy / 0.24 - this.mercuryAge);
@@ -46,6 +46,9 @@ export default class Calculator{
   }
 
   venusLife() {
+    if ((this.expectancy/ 0.62 - this.venusAge) > 0 ) {
+      return this.venusLeft = (this.expectancy/ 0.62 - this.venusAge);
+    }
     
   }
 
