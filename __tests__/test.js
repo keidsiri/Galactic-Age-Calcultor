@@ -57,7 +57,7 @@ describe ('Calculator', () => {
     const user = new Calculator('Kate', 30, 80);
     expect(user.marsLife()).toBeCloseTo((50/1.88), 1);
   });
-  test('Should calculate number of years that user lived beyond the expectancy on Mars', () => {
+  test('Should calculate number of years that user lived beyond the expectancy on Jupiter', () => {
     const user = new Calculator('Kate', 73, 65);
     expect(user.marsLife()).toBeCloseTo((8/1.88), 1);
   });
@@ -65,6 +65,11 @@ describe ('Calculator', () => {
     const user = new Calculator('Kate', 30, 80);
     expect(user.jupiterLife()).toBeCloseTo((50/11.86), 1);
   });
+  test('Should calculate number of years that user lived beyond the expectancy on Jupiter', () => {
+    const user = new Calculator('Kate', 73, 65);
+    expect(user.jupiterLife()).toBeCloseTo((8/11.86), 1);
+  });
+
 
 });
 
