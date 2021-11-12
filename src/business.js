@@ -54,7 +54,9 @@ export default class Calculator{
   }
 
   marsLife() {
-    
+    if ((this.expectancy/ 1.88 - this.marsAge) > 0 ) {
+      return this.marsLeft = (this.expectancy/ 1.88 - this.marsAge);
+    }
   }
 
 }
