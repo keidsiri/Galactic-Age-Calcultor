@@ -40,11 +40,16 @@ describe ('Calculator', () => {
   test('Should calculate remaining years of user on Mercury', () => {
     const user = new Calculator ('Kate', 30 , 80);
     expect(user.mercuryLife()).toBeCloseTo((50/0.24), 1)
-  })
+  });
   test('Should calculate number of years that user lived beyond the expectancy', () => {
     const user = new Calculator('Kate', 73, 65);
     expect(user.mercuryLife()).toBeCloseTo((8/0.24), 1);
   });
+  test('Should calculate remaining years of user on Venus', () => {
+    const user = new Calculator ('Kate', 30 , 80);
+    expect(user.venusLife()).toBeCloseTo((50/0.62), 1)
+  });
+
 });
 
 
