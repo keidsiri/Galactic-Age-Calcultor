@@ -57,6 +57,11 @@ describe ('Calculator', () => {
     const user = new Calculator('Kate', 30, 80);
     expect(user.marsLife()).toBeCloseTo((50/1.88), 1);
   });
+  test('Should calculate number of years that user lived beyond the expectancy on Mars', () => {
+    const user = new Calculator('Kate', 73, 65);
+    expect(user.marsLife()).toBeCloseTo((8/1.88), 1);
+  });
+
 });
 
 
