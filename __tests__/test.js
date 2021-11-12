@@ -52,7 +52,11 @@ describe ('Calculator', () => {
   test('Should calculate number of years that user lived beyond the expectancy on Venus', () => {
     const user = new Calculator('Kate', 73, 65);
     expect(user.venusLife()).toBeCloseTo((8/0.62), 1);
-  }); 
+  });
+  test('Should calculate remaining years of user on Mars', () => {
+    const user = new Calculator('Kate', 30, 80);
+    expect(user.marsLife()).toBeCloseTo((50/1.88), 1);
+  }) 
 });
 
 

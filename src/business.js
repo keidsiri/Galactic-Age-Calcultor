@@ -12,23 +12,22 @@ export default class Calculator{
     
   }
 
-  mercury() {
-    this.mercuryAge = (this.age / 0.24);
-  }
+  // mercury() {
+  //   this.mercuryAge = (this.age / 0.24);
+  // }
 
-  venus() {
-    this.venusAge = (this.age / 0.62);
-  }
+  // venus() {
+  //   this.venusAge = (this.age / 0.62);
+  // }
 
-  mars() {
-    this.marsAge = (this.age / 1.88);
-  }
+  // mars() {
+  //   this.marsAge = (this.age / 1.88);
+  // }
 
-  jupiter() {
-    this.jupiterAge = (this.age / 11.88);
-  }
+  // jupiter() {
+  //   this.jupiterAge = (this.age / 11.88);
+  // }
 
-  
   earthLife () {
     if ((this.expectancy - this.age) > 0 ) {
       return this.earthLeft = (this.expectancy - this.age);
@@ -54,6 +53,9 @@ export default class Calculator{
     
   }
 
+  marsLife() {
+    
+  }
 
 }
 
