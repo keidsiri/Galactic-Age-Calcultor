@@ -3,27 +3,28 @@ export default class Calculator{
     this.name = name;
     this.age = age;
     this.expectancy = expectancy;
-    this.mercuryAge = (this.age / 0.24);
-    this.venusAge = (this.age / 0.62);
-    this.marsAge = (this.age / 1.88);
-    this.jupiterAge = (this.age / 11.88);
+   
   }
 
-  // mercury() {
-  //   this.mercuryAge = (this.age / 0.24);
-  // }
+  mercury() {
+    this.mercuryAge = (this.age / 0.24);
+    return this.mercuryAge;
+  }
 
-  // venus() {
-  //   this.venusAge = (this.age / 0.62);
-  // }
+  venus() {
+    this.venusAge = (this.age / 0.62);
+    return this.venusAge;
+  }
 
-  // mars() {
-  //   this.marsAge = (this.age / 1.88);
-  // }
+  mars() {
+    this.marsAge = (this.age / 1.88);
+    return this.marsAge;
+  }
 
-  // jupiter() {
-  //   this.jupiterAge = (this.age / 11.88);
-  // }
+  jupiter() {
+    this.jupiterAge = (this.age / 11.88);
+    return this.jupiterAge;
+  }
 
   earthLife () {
     if ((this.expectancy - this.age) > 0 ) {
