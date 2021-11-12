@@ -62,7 +62,9 @@ export default class Calculator{
   }
 
   jupiterLife() {
-    
+    if ((this.expectancy/11.86 - this.jupiterAge) > 0) {
+      return this.jupiterLeft = (this.expectancy / 11.86) - this.jupiterAge;
+    }
   }
 }
 
