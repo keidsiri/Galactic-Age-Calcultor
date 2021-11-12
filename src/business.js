@@ -48,6 +48,8 @@ export default class Calculator{
   venusLife() {
     if ((this.expectancy/ 0.62 - this.venusAge) > 0 ) {
       return this.venusLeft = (this.expectancy/ 0.62 - this.venusAge);
+    } else {
+      return this.venusBeyond = (this.venusAge - (this.expectancy/ 0.62));
     }
     
   }
