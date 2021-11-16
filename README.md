@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Super Galactic Age Calculator_
 
 #### By _Kate Kiatsiri**_
 
-#### _{Brief description of application}_
+#### _An application that determines a user's age based on a planet's solar years_
 
 ## Technologies Used
 
@@ -17,7 +17,8 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This application calculates the age from user given year then return the ages on each planets such as Mercury, Mars, Jupiter and Venus.
+Also calculates how many more years of life expectation on each planet based on life expectancy user input on Earth.
 
 ## Setup/Installation Requirements
 
