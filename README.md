@@ -2,18 +2,17 @@
 
 #### By _Kate Kiatsiri_
 
-#### _An application that determines a user's age based on a planet's solar years_
+#### _An application that determines a user's age based on a planet's solar years (This is 5th independent project)_
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _Markdown_
 * _JavaScript_
 * _Bootstrap_
 * _jQuery_
 * _Jest_
 * _Webpack_
+* _Jest_
+* _ESLint_
 
 ## Description
 
@@ -22,12 +21,13 @@ Also calculates how many more years of life expectation on each planet based on 
 
 ## Setup/Installation Requirements
 
-* Code editor required (such as Visual Studio Code and Github account.)
-* Navigate this address https://github.com/keidsiri/Portfolio into your browser or 
-<a href="https://github.com/keidsiri/Portfolio"> click here! </a>
-* Clone this repository to your desktop.
-* Navigate to the top of directory
-* Connect to your Github repository
+* Code editor required (such as Visual Studio Code and Github account)
+* Clone or download this repository to your local machine 
+<a href="https://github.com/keidsiri/Galactic-Age-Calcultor"> click here! </a>
+* Open Galactic-Age in your VS code in
+* Open the terminal run command '$ npm install' to install dependencies into the node_modules/ directory
+* Alternatively, you can run npm run build and open dist/index.html in your browser
+* In order to rub the test, in your terminal run the command '$ npm run test' to see the test, the test should be 100% covered
 * Open files in VS code to view or edit
 
 ## Known Bugs
