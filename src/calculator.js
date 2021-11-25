@@ -3,7 +3,6 @@ export default class Calculator{
     this.name = name;
     this.age = age;
     this.expectancy = expectancy;
-   
   }
 
   mercury() {

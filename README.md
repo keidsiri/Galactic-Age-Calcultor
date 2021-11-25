@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### By _Kate Kiatsiri**_
+#### By _Kate Kiatsiri_
 
 #### _An application that determines a user's age based on a planet's solar years_
 
